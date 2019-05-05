@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>samegame.png</file>
+        <file>samegame.svg</file>
+    </qresource>
+    <qresource prefix="/translations">
+        <file>samegame_en.qm</file>
+        <file>samegame_fi.qm</file>
+        <file>samegame_es.qm</file>
+    </qresource>
+</RCC>

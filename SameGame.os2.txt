@@ -1,0 +1,145 @@
+SameGame 1.1.0
+
+0. CONTENTS OF THIS FILE
+========================
+
+1. INTRODUCTION
+
+2. REQUIREMENTS
+
+3. INSTALLATION
+
+4. LICENSE, COPYRIGHT, DISCLAIMER
+
+5. CONTACT
+
+6. CREDITS
+
+7. SUPPORT AND DONATIONS
+
+8. HISTORY
+
+9. RESTRICTIONS
+
+
+1. INTRODUCTION
+===============
+
+Welcome to SameGame 1.1.0 port for OS/2 and eComStation.
+
+SameGame is a puzzle game for Linux and Windows. The rules of the game are as
+follows:
+
+  1. You may remove pieces provided at least two are adjacent either
+     horizontally or vertically.
+  2. Let n = number of removed pieces. Then score += (n-1)ý.
+  3. If you remove all pieces, your score will be doubled.
+  4. The game ends when you have removed all pieces or there are no removable
+     pieces.
+
+NOTE: this port includes a OS/2 icon, a Windows icon and a spanish translation.
+
+Web page: http://samegame.sourceforge.net/
+
+
+2. REQUIREMENTS
+===============
+
+* klibc 0.6.3 or later
+
+    ftp://ftp.netlabs.org/pub/gcc/libc-0_6_3-csd3.wpi
+
+* Qt4 dll
+
+    ftp://ftp.netlabs.org/pub/qt4/4.6.3/qt-lib-4_6_3.wpi
+
+* Gcc 4.4.4 dll
+    http://download.smedley.info/gcc444.zip
+  
+
+
+3. INSTALLATION
+===============
+          
+To install SameGame, do the following:
+
+klibc
+-----
+
+  1. Download klibc 0.6.3 csd3 or later.
+  2. Install the package by double-clicking on the WPI file.
+
+
+Qt4 dll
+-------
+
+  1. Download the package.
+  2. Install the package by double-clicking on the WPI file.
+
+
+Gcc dll
+-------
+  1. Download the package.
+  2. Install the package by double-clicking on the WPI file. 
+
+
+SameGame
+--------
+
+  1. Create a directory for SameGame.
+  2. Extract the SameGame package to the new directory.
+  3. Create a WPS object for samegame.exe
+  4. Start SameGame
+  5. Enjoy the app
+  
+
+
+4. LICENSE, COPYRIGHT, DISCLAIMER
+=================================
+
+(c) 2011 Jari Karppinen <jari.p.karppinen at, gmail.com>
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+
+5. CONTACT
+==========
+
+Please send bugreports to:
+
+  Salvador Parra Camacho
+  sparrac at gmail dot com
+
+
+
+6. CREDITS
+==========
+
+The port was done by:
+
+Salvador Parra Camacho
+
+The "readme.os2" file is based in the same files of ports by Elbert Pol.
+
+
+7. SUPPORT AND DONATIONS
+========================
+
+SameGame is based on volunteer work. If you would like to support further
+development, you can do so in one of the following ways:
+
+
+  * Donate to the Qt4 project: see qt.netlabs.org for more information
+
+  * Contribute to the project: Besides actual development, this also includes
+    maintaining the documentation and the project web site as well as help
+    for users.
+
+
+8. HISTORY
+==========
+
+20110312: First "port" to OS/2.
